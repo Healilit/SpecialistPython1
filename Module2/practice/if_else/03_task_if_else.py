@@ -3,3 +3,14 @@
 # Формат выходных данных: Выведите «YES», если треугольник равнобедренный, и «NO» в противном случае.
 
 # TODO: your code here
+a = int(input("Введите число : "))
+b = int(input("Введите число : "))
+c =int(input("Введите число : "))
+if a == b:
+	print("Yes")
+elif b == c:
+	print("Yes")
+elif c == a:
+	print("Yes")
+else:
+	print("No")
