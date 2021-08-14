@@ -2,5 +2,6 @@
 # Каждый элемент должен быть выведен с новой строки.
 
 fruits = ["яблоко", "банан", "киви", "ананас", "груша"]
-
+for i, fruits in enumerate(fruits):
+    print(i + 1, fruits)
 # TODO: your code here
