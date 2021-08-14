@@ -4,6 +4,10 @@
 
 # Исходные данные:
 fruits = ["яблоко", "банан", "киви", "арбуз"]
+num = 1
+for fruits_list in fruits:
+    print('{}. {}'.format(num, fruits_list))
+    num += 1
 
 # TODO: your code here
 
