@@ -2,6 +2,13 @@
 
 def max2(n1, n2):
     # TODO: your code here
+        if n1 > n2:
+        print('max=' + str(n1))
+        return n1
+    else:
+        print('max=' + str(n2))
+        return n2
+
     pass
 
 
