@@ -3,3 +3,7 @@
 
 a = ...
 b = ...
+while a < b:
+    if str(a) == str(a) [:: - 1]:
+        print(a)
+    a = a + 1
