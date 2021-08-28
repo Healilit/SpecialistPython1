@@ -5,6 +5,13 @@
 # Если все же делится, то надо исключить столетия: они все нацело делятся на 100, но те,
 # которые не делятся нацело на 400, високосными не являются.
 
-def days_in_year(num_year):
+def days_in_year(num_year):    if (num_year % 4 == 0 and num_year % 100 != 0) or num_year % 400 == 0:
+        print("Високосный год")
+    else:
+        print("обычный год")
     pass
+# Проверка
+if days_in_year(20202):
+    print("Yes")
+ 
 
